@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>CDRL 0002 Automated Testing - 1 Overview - BES Playbooks</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "CDRL 0002 Automated Testing - 1 Overview";
+    var mkdocs_page_input_path = "autotest.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> BES Playbooks</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">BES Playbooks</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../agile/">CDRL 0001 Agile - 1 Overview</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../agiletrans/">-2 Agile Transformation</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../applyag/">-3 Applying Agile Methods and Mindset Within The Air Force</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../agilearch/">-4 Agile Architecture</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../agileframe/">-5 Agile Framework</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../agileappend_a/">-6 Appendix A - Key Events Plays</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../agileappend_b/">-7 Appendix B - Key Personnel Plays</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../agileappend_c/">-8 Appendix C - Key Links</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../agileappend_d/">-9 Appendix D - Agile Terminology</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../agileappend_e/">-10 Appendix E - Glossary</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">CDRL 0002 Automated Testing - 1 Overview</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#1-overview">1 Overview</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#11-purpose">1.1 Purpose</a></li>
+        
+            <li><a class="toctree-l3" href="#12-audience">1.2 Audience</a></li>
+        
+            <li><a class="toctree-l3" href="#13benfits-of-automated-testing">1.3Benfits of Automated Testing</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../test/">-2 Test Automation</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../roles/">-3 Roles in Test Automation</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../scopetest/">-4 Scope of Test Automation</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../developauto/">-5 Developing a Test Automation Solution</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../migrating/">-6 Migrating From Manual to Automated Testing</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../developmentcycle/">-7 Test Automation Development Lifecycle</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../effectmeasure/">-8 Effectiveness Measurements</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../reporting/">-9 Reporting</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../lookingahead/">-10 Looking Ahead</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../autotestappend_a/">-Appendix A Resources</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../autotestappend_b/">-Appendix B Test Tools</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">BES Playbooks</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>CDRL 0002 Automated Testing - 1 Overview</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="1-overview">1 Overview</h1>
+<h3 id="11-purpose">1.1 Purpose</h3>
+<p>AF/A4 published the "US Air Force Enterprise Logistics Flight Plan v2.0" (ELFP) in April 2016 and the subordinate document 
+"Enterprise Logistics Technology Annex" (ELTA) in June of 2016.  This plan and annex describe the desired "synthesized logistics information" 
+future state of US Air Force (AF) Enterprise Logistics in 2035.  BES believes that in order to maintain a path and schedule to achieve those 
+long-term goals, a series of enabling initiatives are needed to accelerate current progress in order to achieve the necessary near-term milestones.  </p>
+<p>It is the intent of the Business and Enterprise System (BES) to include the resulting Playbooks into the BES Process Directory (BPD) to ensure 
+all members of Air Force Program Executive Office (AFPEO) BES, at all operating locations, have quick easy access to standard processes and 
+templates for Defense Business System programs.</p>
+<p>DoD continues to recognize the need to apply automated software testing processes and procedures in a more consistent and repeatable manner. The 
+Director of Operational Test &amp; Evaluation (DOT&amp;E) annual reports dating back to 2013 and earlier, show a concerted effort to improve the adoption 
+rate of automation across the DoD. The National Defense Authorization Act (NDAA) for FY 2018 commissioned an Automated Testing Technologies study. 
+There continues to be strong interest across the Services to investigate ways in which automation adoption and momentum can be increased. Defense Acquisition Policy, 
+DoD Instruction 5000.02 and 5000.75 through AFMAN 63-144 contain language that encourages the use of automated testing. With the move towards more flexible and 
+agile approaches to software development comes a greater urgency to implement test automation. This playbook addresses the desire to adopt test automation 
+with practical, experienced-based methods and best practices. </p>
+<p><strong>Automation Playbook Benefits</strong></p>
+<ul>
+<li>Defines a common understanding of automation processes and terminology</li>
+<li>Establishes automation best practices to facilitate adoption by AF community </li>
+<li>Explains the various roles needed to start and maintain test automation</li>
+<li>Defines an overall architecture of automation applicable across projects and programs</li>
+<li>Helps programs understand how to migrate from manual to automated testing</li>
+</ul>
+<h3 id="12-audience">1.2 Audience</h3>
+<p>This playbook is intended for those individuals responsible for the management and engineering of test automation. It provides managers with the knowledge 
+that will help them support programs looking to implement automation and it will provide engineers with the information they will need to successfully plan 
+the implementation of a test automation solution. The approach is holistic in that it broadly defines many factors, not just technical ones, that are 
+necessary to understand and apply when moving towards automation.</p>
+<h3 id="13benfits-of-automated-testing">1.3Benfits of Automated Testing</h3>
+<p>An investment in automation can reap many rewards to the test team and overall project. There are primary and secondary benefits to using automated tools.</p>
+<p><strong>Primary Benefits</strong></p>
+<p>The primary benefits to using automation for testing can be summarized as follows:</p>
+<ul>
+<li>Faster test execution</li>
+<li>More reliable/repeatable test execution</li>
+<li>Increased quality from greater test coverage due to additional tests</li>
+<li>Facilitates testing of more complex scenarios</li>
+<li>Less error-prone than manual testing</li>
+<li>More consistent than manual testing</li>
+<li>Provides for unattended 24/7 test execution</li>
+<li>Ability to create additional test conditions from single script</li>
+<li>Reusability of tests within and across test events</li>
+<li>Ability to test more in the same or shorter time schedule</li>
+<li>Testing across a variety of software/hardware platforms</li>
+<li>Allows for the possibility of testing that which could not be tested manually</li>
+<li>Allows for increased frequency of testing</li>
+<li>Allows more effective use of testing resources (i.e. more test design, less manual execution)</li>
+</ul>
+<p><strong>Secondary Benefits</strong></p>
+<p>Secondary benefits for using automated test tools consist of support activities for testing, rather than the testing itself. These include:</p>
+<ul>
+<li>User account creation in advance of testing</li>
+<li>Database seeding with required test data</li>
+<li>Creation/management of test datasets</li>
+<li>Test environment configuration setup</li>
+<li>Pre-test initialization activities</li>
+<li>Post-test clean-up activities</li>
+<li>Automated data analysis of concluded test events</li>
+</ul>
+<p><strong>Project and Program Benefits</strong></p>
+<p>The use of automation brings benefits beyond testing to the project and program. These include:</p>
+<ul>
+<li>Improved software quality</li>
+<li>Earlier defect detection</li>
+<li>Fewer defects sent to next testing phase</li>
+<li>Greater efficiency in accomplishing testing</li>
+<li>Greater relevance of timely test results</li>
+<li>Reduced risk of deployment</li>
+<li>Improved test reporting </li>
+<li>Facilitated identification of defect root causes </li>
+<li>Reduced test execution cost</li>
+<li>Shortened test execution period</li>
+<li>Improved consistency of test executions</li>
+<li>Better adapted to iterative development where more frequent testing is required</li>
+<li>Improved feedback related to application quality</li>
+<li>Improved system reliability through repeatability and consistency of tests</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../test/" class="btn btn-neutral float-right" title="-2 Test Automation">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../agileappend_e/" class="btn btn-neutral" title="-10 Appendix E - Glossary"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../agileappend_e/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../test/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

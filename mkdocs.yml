@@ -1,0 +1,30 @@
+site_name: BES Playbooks
+
+nav:
+- BES Playbooks: index.md
+- CDRL 0001 Agile - 1 Overview: agile.md
+- -2 Agile Transformation: agiletrans.md
+- -3 Applying Agile Methods and Mindset Within The Air Force: applyag.md
+- -4 Agile Architecture: agilearch.md
+- -5 Agile Framework: agileframe.md
+- -6 Appendix A - Key Events Plays: agileappend_a.md
+- -7 Appendix B - Key Personnel Plays: agileappend_b.md
+- -8 Appendix C - Key Links: agileappend_c.md
+- -9 Appendix D - Agile Terminology: agileappend_d.md
+- -10 Appendix E - Glossary: agileappend_e.md
+- CDRL 0002 Automated Testing - 1 Overview: autotest.md
+- -2 Test Automation: test.md
+- -3 Roles in Test Automation: roles.md
+- -4 Scope of Test Automation: scopetest.md
+- -5 Developing a Test Automation Solution: developauto.md
+- -6 Migrating From Manual to Automated Testing: migrating.md
+- -7 Test Automation Development Lifecycle: developmentcycle.md
+- -8 Effectiveness Measurements: effectmeasure.md
+- -9 Reporting: reporting.md
+- -10 Looking Ahead: lookingahead.md
+- -Appendix A Resources: autotestappend_a.md
+- -Appendix B Test Tools: autotestappend_b.md
+
+
+
+theme: readthedocs
